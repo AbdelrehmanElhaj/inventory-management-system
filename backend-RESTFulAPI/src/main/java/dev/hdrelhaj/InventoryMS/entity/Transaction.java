@@ -51,17 +51,5 @@ public class Transaction {
     @JoinColumn(name = "supplier_id")
     private Supplier supplier;
 
-    @Override
-    public String toString() {
-        return "Transaction{" +
-                "id=" + id +
-                ", totalProducts=" + totalProducts +
-                ", totalPrice=" + totalPrice +
-                ", transactionType=" + transactionType +
-                ", status=" + status +
-                ", description='" + description + '\'' +
-                ", updatedAt=" + updatedAt +
-                ", createdAt=" + createdAt +
-                '}';
-    }
+    
 }
